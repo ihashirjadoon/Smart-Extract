@@ -8,15 +8,27 @@ Smart Extract is a document processing and question-answering application that s
 - Question-answering capability for extracted text
 - User-friendly interface built with Gradio
 
-## Prerequisites
+## Live Demo
+
+You can try out Smart Extract using our live demo hosted on Hugging Face Spaces:
+
+[Smart Extract Demo](https://huggingface.co/spaces/codhash/Smart-Extract)
+
+This demo allows you to experience the features of Smart Extract without having to install it locally. Simply visit the link and start extracting text and asking questions about your documents!
+
+## Local Installation
+
+If you want to run Smart Extract locally, follow these steps:
+
+### Prerequisites
 
 Before running this project, make sure you have the following installed:
 
-- Python 3.7+
+- Python 3.9+
 - pip (Python package manager)
 - Tesseract OCR
 
-## Installation
+### Installation Steps
 
 1. Install Tesseract OCR:
    - On Windows:
@@ -59,31 +71,29 @@ Before running this project, make sure you have the following installed:
 
 ## Usage
 
-1. Run the application:
+To run Smart Extract locally:
+
+1. Ensure you're in the project directory and your virtual environment is activated.
+2. Run the application:
    ```
    python app.py
    ```
+3. Open your web browser and navigate to the URL provided in the console output (typically http://localhost:7860).
 
-2. Open your web browser and go to the URL displayed in the terminal (usually `http://127.0.0.1:7860`).
-
-3. Use the interface to upload documents, extract text, and ask questions.
 
 ## Project Structure
 
-- `app.py`: Main application file containing the Gradio interface and core functionality.
-- `model/qa_model.py`: Question-answering model implementation.
-- `model/extract_text.py`: Text extraction for English documents.
-- `model/extract_text_hindi.py`: Text extraction for Hindi documents.
+The Smart Extract project is organized with the following folder structure:
+
+- `app/`: Contains the main application code.
+- `model/`: Stores the pre-trained models and any other model files.
+- `README.md`: This file.
+- `requirements.txt`: Lists the dependencies required for the project.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions to Smart Extract are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-<!-- Add your live link here when available -->
-<!-- ## Live Demo -->
-<!-- The project is live at: [https://your-project-url.com](https://your-project-url.com) -->
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
