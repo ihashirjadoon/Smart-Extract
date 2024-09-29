@@ -1,0 +1,6 @@
+gradio
+pytesseract
+pymupdf
+Pillow
+transformers
+torch
