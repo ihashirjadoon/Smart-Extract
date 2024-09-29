@@ -33,7 +33,7 @@ Before running this project, make sure you have the following installed:
 
 2. Clone the repository:
    ```
-   git clone https://github.com/your-username/smart-extract.git
+   git clone https://github.com/ihashirjadoon/Smart-Extract
    cd smart-extract
    ```
 
